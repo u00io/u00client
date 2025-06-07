@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"github.com/u00io/u00client/examples/example00"
+	"github.com/u00io/u00client/examples/example01"
+)
 
 func main() {
-	fmt.Println("started")
+	example00.Run()
+	example01.Run()
 }
